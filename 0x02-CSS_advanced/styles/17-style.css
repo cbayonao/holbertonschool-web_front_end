@@ -257,6 +257,11 @@ a:active {
   padding: var(--section-body-padding);
 }
 
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
 h1,
 h2,
 h3,
