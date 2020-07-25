@@ -260,15 +260,6 @@ a:active {
   padding: var(--section-header-padding);
 }
 
-.section-body {
-  padding: var(--section-body-padding);
-}
-
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
-}
-
 .navbar-menu {
   float: right;
 }
@@ -296,6 +287,15 @@ a:active {
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 
 h1,
