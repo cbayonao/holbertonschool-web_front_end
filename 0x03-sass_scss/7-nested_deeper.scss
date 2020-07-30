@@ -1,0 +1,13 @@
+$sixT: 16px;
+$fourT: 14px;
+$twelve: 12px;
+
+body {
+  font-size: $fourT;
+  h1 {
+    font-size: $sixT;
+    &.smaller {
+      font-size: $twelve;
+    }
+  }
+}
