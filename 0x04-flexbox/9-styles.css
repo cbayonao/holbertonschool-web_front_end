@@ -519,24 +519,22 @@ ul.row {
 }
 
 /*** 4. CARD ***/
-
 /* Section Latest news
       ============================= */
 .section-latest-news .row {
   flex-direction: row-reverse;
 }
 
-      /* Section SERVICES
-            ============================= */
+/* Section SERVICES
+      ============================= */
 .section-services .row {
   flex-wrap: wrap;
 }
 
-      /* Section ABOUT US ============================= */
+/* Section ABOUT US ============================= */
 .section-about-us [class*=col-] {
   align-self: center;
 }
-
 
 /* Card (all styles)
       ============================= */
