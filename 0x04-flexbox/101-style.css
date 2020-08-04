@@ -1,0 +1,59 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+}
+
+.container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.box.box3 {
+  background-color: #415366;
+  width: 22%;
+  height: 40%;
+  font-size: 4rem;
+}
+
+.box.box1 {
+  background-color: #42cf82;
+}
+.box.box2 {
+  background-color: #3087c5;
+}
+
+.box.box4 {
+  background-color: #b265d1;
+}
+.box.box5 {
+  background-color: #f08c19;
+}
+
+.box.box1,
+.box.box5 {
+  font-size: 1rem;
+  width: 7%;
+  height: 18%;
+}
+
+.box.box2,
+.box.box4 {
+  font-size: 2rem;
+  width: 11%;
+  height: 25%;
+}
