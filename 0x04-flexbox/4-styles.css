@@ -333,7 +333,6 @@ a:active {
 
 /* Grid
       ============================= */
-
 .row {
   display: flex;
 }
@@ -344,7 +343,7 @@ ul.row {
   list-style: none;
 }
 
-[class*="col-"] {
+[class*='col-'] {
   margin: 1rem;
 }
 
@@ -525,19 +524,19 @@ ul.row {
   padding: 10rem 40rem 2rem 0;
 }
 
-/* Section Latest news
-      ============================= */
+/* Section Latest news ============================= */
+
 .section-latest-news .row {
   flex-direction: row-reverse;
 }
 
-/* Section SERVICES
-      ============================= */
+/*** 4. CARD ***/
+
+/* Section SERVICES ============================= */
+
 .section-services .row {
   flex-wrap: wrap;
 }
-
-/*** 4. CARD ***/
 
 /* Card (all styles)
       ============================= */
