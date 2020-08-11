@@ -897,7 +897,7 @@ textarea:focus {
 .form-group .form-help {
   margin: 0;
   line-height: 1.3;
-  letter-spacing: 0.19rem;
+  letter-spacing: 0.019rem;
   color: var(--color-dark-grey);
   font-size: var(--font-size-small);
   max-height: 0;
@@ -905,7 +905,7 @@ textarea:focus {
   overflow: hidden;
 }
 
-.form-group .form-help:focus-within {
+.form-group:focus-within .form-help {
   max-height: 20rem;
   margin: 0.4rem 0 0;
 }
