@@ -922,10 +922,10 @@ textarea:focus {
   max-height: 20rem;
   margin: 0.4rem 0 0;
 }
-  /* Form error handling
+/* Form error handling
 ============================= */
 
-  /* The following code is used to place the icon in the after pseudo element. Because after and before are not possible in an input, we need to use a span that will be positioned on the right of our input. */
+/* The following code is used to place the icon in the after pseudo element. Because after and before are not possible in an input, we need to use a span that will be positioned on the right of our input. */
 
 input:not(:placeholder-shown) ~ .form-field-icon::after {
   height: 100%;
@@ -938,13 +938,14 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
 
 /* Because inputs are invalid by default, we need to be careful and show the icon when we are not in focus and when when the input is not empty (placeholder-shown). Careful with this one because it is not supported everywhere. */
 
-input:required:invalid:not(:focus):not(:placeholder-shown) ~ .form-field-icon::after {
-  content: '✘';
+input:required:invalid:not(:focus):not(:placeholder-shown)
+  ~ .form-field-icon::after {
+  content: "✘";
   color: var(--error-color);
 }
 
 input:required:valid ~ .form-field-icon::after {
-  content: '✔';
+  content: "✔";
   color: var(--valid-color);
 }
 
